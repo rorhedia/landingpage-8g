@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
    margin: 0;
@@ -106,4 +107,128 @@ header{
 
 
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 30px 15px;
+    background: url("../images/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%);
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-section img {
+    height: 18px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.logo-section button {
+    height: 25px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 2px #aaaa;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.all-content {
+    margin-top: 80px;
+}
+
+.main-informaion {
+    padding: 0 35px;
+    text-align: center;
+    /*margin-bottom: 30px;*/
+}
+
+.paragraph {
+    margin: 35px 0;
+    font-size: 1.05rem;
+}
+
+.main-informaion button {
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(322, 100%, 66%, 0.979);
+    color: white;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mockups {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.mockups img {
+    width: 80%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header {
+        padding: 45px 60px;
+        background: url("../images/bg-hero-desktop.svg") no-repeat center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: hsl(193, 100%, 96%);
+    }
+
+    .logo-section img {
+        height: auto;
+        width: 160px;
+    }
+
+    .logo-section button {
+        height: auto;
+        width: 160px;
+    }
+
+    .all-content {
+        display: flex;
+        margin-top: 70px;
+    }
+
+    .main-informaion {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        text-align: left;
+        width: 58%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .mockups {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+>>>>>>> 542fb8f49cf6e05acb7d3785530415ecc8865fd7
 }

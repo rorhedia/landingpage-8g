@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Front-end Style Guide
+=======
+****# Front-end Style Guide
+>>>>>>> 542fb8f49cf6e05acb7d3785530415ecc8865fd7
 
 ## Layout
 
