@@ -94,19 +94,35 @@ header {
     flex-grow: 1;
     flex-direction: column;
     margin-right: 15px;
-    margin-left: 50px;
+    margin-left: 15px;
     align-content: center;
+    display: flex;
+    text-align: center;
 }
 
 .text-wrapper2 {
-    margin: auto;
-    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /*margin: auto;*/
+    /*flex-grow: 1;*/
     margin-right: 15px;
-    margin-left: 50px;
-    align-content: center;
+    margin-left: 15px;
+    /*align-content: center;*/
 }
 
-.text-wrapper1 h3, .text-wrapper2 h3 {
+.text-wrapper3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /*margin: auto;*/
+    /*flex-grow: 1;*/
+    margin-right: 15px;
+    margin-left: 15px;
+    /*align-content: center;*/
+}
+
+.text-wrapper1 h3, .text-wrapper2 h3, .text-wrapper3 h3 {
     margin: 20px 0;
 }
 
@@ -289,10 +305,19 @@ header {
         flex-direction: inherit;
     }
 
-    .text-wrapper1 {
-        flex-grow: 1;
+    .text-wrapper1, .text-wrapper3 {
+        display: flex;
+        text-align: left;
+        /*margin-left: 50px;*/
+        margin: auto 0 auto 50px;
+    }
+
+    .text-wrapper2 {
+        display: flex;
+        text-align: left;
+        margin-left: 50px;
         flex-direction: column;
-        align-content: center;
+        margin: auto 0;
     }
 
     .image-wrapper {
