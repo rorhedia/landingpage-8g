@@ -96,6 +96,7 @@ header {
     margin-right: 15px;
     margin-left: 50px;
     align-content: center;
+    
 }
 
 .text-wrapper2 {
@@ -143,19 +144,77 @@ header {
 .backg {
     background-color: hsl(192, 100%, 9%);
     color: white;
-    padding-top: 100px;
+    padding: 100px 20px;
 }
 
 .icons {
     display: flex;
-    align-items: center;
+    
+    margin:40px 0 20px 0;
+    
+    justify-content: center;
 }
 
 .directory{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 20px;
 }
+.directory img{
+    height: 19px;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.directory2{
+    display: flex;
+       padding-top: 20px;
+       
+}
+.directory2 img{
+    height: 19px;
+    width: auto;
+    margin-right: 14px;
+    margin-top: 6px;
+}
+.directory3{
+    display: flex;
+       padding-top: 20px;
+       
+}
+.directory3 img{
+    height: 19px;
+    width: auto;
+    margin-right: 14px;
+    margin-top: 6px;
+}
+.lists{
+    margin-top: 40px;
 
+}
+.lists2{
+    margin-top: 5px;
+
+}
+.lists li{
+    margin: 10px 0;
+    list-style: none;
+}
+.lists2 li{
+    margin: 10px 0;
+    list-style: none;
+}
+.icons i{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0 8px;
+    
+}
+.copy{
+    text-align: center;
+    font-size: 12px;
+}
 @media only screen and (min-width: 1024px) {
     header {
         padding: 45px 60px;
