@@ -323,4 +323,8 @@ header {
     .content-footer3 {
         width: 33%;
     }
+
+    .icons {
+        margin: 40px 0 120px 0;
+    }
 }
